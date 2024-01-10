@@ -18,7 +18,6 @@ function App() {
     return (
         <GlobalProvider>
             <PassageProvider appId={process.env.REACT_APP_PASSAGE_APP_ID}>
-                
                 <Navbar/>
                 <Routes>
                     <Route path="/" element={<Home/>}></Route>
